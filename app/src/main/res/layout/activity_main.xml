@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <TableLayout
+        style="@style/tableLayout_style">
+        <TableRow>
+            <com.ding.RecordTextView
+                style="@style/text_style"
+                android:text="*用户名:" />
+
+            <EditText
+                style="@style/edit_style"/>
+        </TableRow>
+        <TableRow>
+            <com.ding.RecordTextView
+                style="@style/text_style"
+                android:text="*密码:" />
+            <EditText
+                style="@style/edit_style"/>
+        </TableRow>
+        <TableRow>
+            <com.ding.RecordTextView
+                style="@style/text_style"
+                android:text="*确认密码:" />
+
+            <EditText
+                style="@style/edit_style"/>
+        </TableRow>
+        <TableRow>
+            <com.ding.RecordTextView
+                style="@style/text_style"
+                android:text="公司名称:" />
+            <EditText
+                style="@style/edit_style"/>
+        </TableRow>
+        <TableRow>
+            <com.ding.RecordTextView
+                style="@style/text_style"
+                android:text="职业:" />
+            <EditText
+                style="@style/edit_style"/>
+        </TableRow>
+        <TableRow>
+            <com.ding.RecordTextView
+                style="@style/text_style"
+                android:text="邮箱:" />
+            <EditText
+                style="@style/edit_style"/>
+        </TableRow>
+        <TableRow>
+            <com.ding.RecordTextView
+                style="@style/text_style"
+                android:text="*手机号:" />
+            <EditText
+                style="@style/edit_style"/>
+        </TableRow>
+        </TableLayout>
+</RelativeLayout>
