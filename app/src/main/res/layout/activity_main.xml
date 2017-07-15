@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <View
+        android:id="@+id/ll_bar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/colorfilter"
+        android:layout_alignParentTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="渐变色状态栏"
+        android:gravity="center"
+        android:background="@drawable/colorfilter"/>
     <TableLayout
         style="@style/tableLayout_style">
         <TableRow>
@@ -57,4 +70,4 @@
                 style="@style/edit_style"/>
         </TableRow>
         </TableLayout>
-</RelativeLayout>
+</LinearLayout>
